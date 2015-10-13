@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1444752882 source:/home/jofroid/UTC/SR06/sr06_crypto/Init.cpp
+	"Init.h"
+
+1444752844 /home/jofroid/UTC/SR06/sr06_crypto/Init.h
+	<iostream>
+	<fstream>
+	<sstream>
+	<string>
+
+1444752898 source:/home/jofroid/UTC/SR06/sr06_crypto/main.cpp
+	<iostream>
+	"Init.h"
+

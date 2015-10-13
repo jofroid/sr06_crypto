@@ -9,6 +9,5 @@ int main()
 
     std::cout << i.text;
 
-    cout << "Hello world!" << endl;
     return 0;
 }

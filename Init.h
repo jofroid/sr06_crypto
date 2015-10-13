@@ -15,9 +15,6 @@ class Init
         Init();
         virtual ~Init();
 
-        //int cleanFile();
-
-
     protected:
     private:
 };

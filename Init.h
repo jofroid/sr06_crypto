@@ -10,13 +10,17 @@
 class Init
 {
     public:
-        std::string text;
+        ;
 
         Init();
-        virtual ~Init();
+        std::string getText()
+        {
+            return text;
+        }
 
     protected:
     private:
+    std::string text;
 };
 
 #endif // INIT_H

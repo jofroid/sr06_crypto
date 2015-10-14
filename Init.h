@@ -10,13 +10,15 @@
 class Init
 {
     public:
-        ;
+
 
         Init();
         std::string getText()
         {
             return text;
         }
+
+        std::string *splitText(int step);
 
     protected:
     private:

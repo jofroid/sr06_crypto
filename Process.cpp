@@ -124,3 +124,32 @@ void Process::remplirD3()
         cout << it->second << endl;
     }
 }
+
+void Process::remplirD4()
+{
+    int length  = text.size() -1;
+    for(int i = 0 ; i < length - 3; ++i)
+    {
+        stringstream ss;
+        string s;
+        char c = text[i];
+        ss << c;
+        c = text[i + 1];
+        ss << c;
+        c = text[i + 2];
+        ss << c;
+        c= text[i + 3];
+        ss << c;
+        ss >> s;
+        D4[s]++;
+    }
+
+     map<string, int>::iterator it;
+
+
+    for(it=D4.begin(); it!=D4.end() ; ++it)
+    {
+        cout << it->first << endl;
+        cout << it->second << endl;
+    }
+}
